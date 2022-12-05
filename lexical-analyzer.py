@@ -74,4 +74,9 @@ print("Delimiters: ",detect_delimiters(text))
 print("Identifiers: ",detect_identifiers(text))
 print("Numbers: ",detect_num(text))
 
-#we have to take an input file with the extention .txt example:-e1-example.txt contains{ int a = b + c * d ;}
+#we have to take an input file with the extention .txt example:-e1-example.txt contains   int a = b + c * d ;
+Keywords:  ['int']
+Operators:  ['+', '*', '=']
+Delimiters:  [';']
+Identifiers:  ['a', 'b', 'c', 'd']
+Numbers:  []
